@@ -1,7 +1,7 @@
 /**
  * Prism: Lightweight, robust, elegant syntax highlighting
  * MIT license http://www.opensource.org/licenses/mit-license.php/
- * @author Lea Verou http://lea.verou.me
+ * @author Rizki Ramdandi Sudrajat http://dev-android.tech/
  */
 (function () {
 	// Private helper vars
@@ -116,7 +116,7 @@
 					inside = pattern.inside,
 					lookbehind = !! pattern.lookbehind || 0;
 				pattern = pattern.pattern || pattern;
-				for (var i = 0; i < strarr.length; i++) { // Don’t cache length as it changes during the loop
+				for (var i = 0; i < strarr.length; i++) { // Donâ€™t cache length as it changes during the loop
 					var str = strarr[i];
 					if (strarr.length > text.length) {
 						// Something went terribly wrong, ABORT, ABORT!
